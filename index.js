@@ -4,7 +4,7 @@ const pc = newPlayableCharacter(100, 110)
 // Create a non-playable character
 const npc = newNonPlayableCharacter(50, 300)
 
-// have the NPC start walking east immediately
+have the NPC start walking east immediately
 function npcLoop() {
     npc.walkNorth(1400, () => {
         npc.walkEast(1200, () => {
@@ -24,8 +24,6 @@ function npcLoop() {
 }
 
 npcLoop()
-
-
 
 
 // Create the inventory
